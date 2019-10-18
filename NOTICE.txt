@@ -28,17 +28,9 @@ The following tools and components are required:
 
 The contributors of this projects are:
 
-	
-
-	José Martín Sánchez (josmarsan24@alum.us.es)
-
-
-
-
-The contributors of this project are:
-
 Javier Navarro Pliego(javnavpli@alum.us.es)
 Jesús Gámez Larrad (jesgamlar@alum.us.es)
 Isaac Muñiz Valverde(isamunval@alum.us.es)
 José Manuel Sánchez (jossanrui5@alum.us.es)
+José Martín Sánchez (josmarsan24@alum.us.es)
 
