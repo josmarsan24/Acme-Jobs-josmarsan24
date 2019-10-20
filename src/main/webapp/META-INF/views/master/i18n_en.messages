@@ -16,8 +16,8 @@ master.banner.background = #FFE97F
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Starter Project! Never before has it bee easier to get your \
-	project up and running!
+	Welcome to Starter Project! Never before you have seen a project \
+	more beautiful and functional than this one!
 
 # master.menu #################################################################
 
@@ -29,7 +29,7 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link = Favourite link
+master.menu.anonymous.favourite-link = Jesús´ link
 
 # master.menu.administrator ###################################################
 
@@ -70,9 +70,9 @@ master.footer.label.spanish = Spanish
 
 # master.company ##############################################################
 
-master.company.title = La compañía
+master.company.title = Acme-Jobs S.A.
 master.company.text = \
-	Starter Project, Inc. is a fictitious fictitious company that provides a \
+	Acme-Jobs S.A. is a fictitious fictitious company that provides a \
 	starter project for the students of the Design and Testing subject of the \
 	Software Engineering Curriculum of the University of Sevilla.
 master.company.name = Starter Project, Inc.
