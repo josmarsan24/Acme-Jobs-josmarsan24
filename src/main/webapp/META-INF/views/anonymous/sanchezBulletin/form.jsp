@@ -1,5 +1,5 @@
 <%--
-- banner.jsp
+- form.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -15,7 +15,10 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<div class="rounded" style="background: #222020 <%--<acme:message code='master.banner.background'/>--%>">
-	<img src="images/banner.png" alt="Acme Jobs, Inc." class="img-fluid rounded"/>
-</div>
-
+<acme:form>
+    <acme:form-textbox code="anonymous.sanchezBulletin.form.label.author" path="author"/>
+    <acme:form-textarea code="anonymous.sanchezBulletin.form.label.text" path="text"/>
+    
+    <acme:form-submit code="anonymous.sanchezBulletin.form.button.create" action="/anonymous/sanchezBulletin/create"/>
+    <acme:form-return code="anonymous.sanchezBulletin.form.button.return"/>
+</acme:form>

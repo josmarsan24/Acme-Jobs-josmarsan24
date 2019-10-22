@@ -299,8 +299,8 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>245</x>
-      <y>371</y>
+      <x>63</x>
+      <y>364</y>
       <w>217</w>
       <h>105</h>
     </coordinates>
@@ -316,6 +316,7 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
+
       <x>483</x>
       <y>371</y>
       <w>217</w>
@@ -329,6 +330,20 @@ NavarroBulletin
 + height: Double (NotNull, Positive, Max())
 + weight: Double (NotNull, Positive, Max())
 </panel_attributes>
+=======
+      <x>182</x>
+      <y>266</y>
+      <w>238</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+SanchezBulletin
+--
++ moment: Date (Temporal(TIMESTAMP), Past)
++ Author: String (NotBlank)
++ city: String (NotBlank)
++ country: String (NotBlank)</panel_attributes>
+
     <additional_attributes/>
   </element>
 </diagram>
