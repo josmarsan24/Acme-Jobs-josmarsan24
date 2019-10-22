@@ -30,24 +30,6 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	}
 
 	@Override
-	public void bind(final Request<Shout> request, final Shout entity, final Errors errors) {
-		assert request != null;
-		assert entity != null;
-		assert errors != null;
-
-		request.bind(entity, errors);
-	}
-
-	@Override
-	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
-		assert request != null;
-		assert entity != null;
-		assert model != null;
-
-		request.unbind(entity, model, "author", "text");
-	}
-
-	@Override
 	public Shout instantiate(final Request<Shout> request) {
 		assert request != null;
 
@@ -62,6 +44,24 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		result.setMoment(moment);
 
 		return result;
+	}
+
+	@Override
+	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
+		assert request != null;
+		assert entity != null;
+		assert model != null;
+
+		request.unbind(entity, model, "author", "text");
+	}
+
+	@Override
+	public void bind(final Request<Shout> request, final Shout entity, final Errors errors) {
+		assert request != null;
+		assert entity != null;
+		assert errors != null;
+
+		request.bind(entity, errors);
 	}
 
 	@Override
