@@ -16,9 +16,12 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-    <acme:list-column code="anonymous.sanchezBulletin.list.label.date" path="date" width="20%"/>
-    <acme:list-column code="anonymous.sanchezBulletin.list.label.author" path="author" width="20%"/>
-    <acme:list-column code="anonymous.sanchezBulletin.list.label.city" path="city" width="30%"/>
-    <acme:list-column code="anonymous.sanchezBulletin.list.label.country" path="country" width="30%"/>
+    <acme:list-column code="anonymous.sanchez-bulletin.list.label.date" path="date" width="20%"/>
+    <acme:list-column code="anonymous.sanchez-bulletin.list.label.author" path="author" width="20%"/>
+    <acme:list-column code="anonymous.sanchez-bulletin.list.label.city" path="city" width="30%"/>
+    <acme:list-column code="anonymous.sanchez-bulletin.list.label.country" path="country" width="30%"/>
 </acme:list>
 
+<acme:form>
+    <acme:form-submit code="anonymous.sanchez-bulletin.form.button.create" action="/anonymous/sanchez-bulletin/create" method="get"/>
+</acme:form>

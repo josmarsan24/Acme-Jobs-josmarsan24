@@ -29,11 +29,13 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.listJesus = Link de Jesús
-master.menu.anonymous.listJoseManuel = Link de José Manuel
-master.menu.anonymous.listJose = Link de Jose
-master.menu.anonymous.listJavier = Boletin de Javier
-master.menu.anonymous.listIsaac = Link de Isaac
+
+master.menu.anonymous.listJesus = Bulletin de Jesús
+master.menu.anonymous.listJoseManuel = Bulletin de José Manuel
+master.menu.anonymous.listJose = Bulletin de Jose
+master.menu.anonymous.listJavier = Bulletin de Javier
+master.menu.anonymous.listIsaac = Bulletin de Isaac
+
 
 # master.menu.administrator ###################################################
 
