@@ -36,6 +36,29 @@
         <property name="text" value= "Jus turning 20!"/>
         <property name="moment" value= "2019/09/07 00:00"/>
     </bean>
+    
+    
+    
+    <bean id = "sanchez-bulletin01" class = "acme.entities.bulletins.SanchezBulletin">
+        <property name="author" value= "Amando Ruiz"/>
+        <property name="city" value= "Sevilla"/>
+        <property name="country" value= "Spain"/>
+        <property name="date" value= "2019/09/09 10:00"/>
+    </bean>
+
+    <bean id = "sanchez-bulletin02" class = "acme.entities.bulletins.SanchezBulletin">
+        <property name="author" value= "Jane Doe"/>
+        <property name="city" value= "London"/>
+        <property name="country" value= "United Kingdom"/>
+        <property name="date" value= "2019/09/08 12:30"/>
+    </bean>
+
+    <bean id = "sanchez-bulletin03" class = "acme.entities.bulletins.SanchezBulletin">
+        <property name="author" value= "Luisa Cabello"/>
+        <property name="city" value= "New York"/>
+        <property name="country" value= "USA"/>
+        <property name="date" value= "2019/09/07 00:30"/>
+    </bean>
 
 	
 

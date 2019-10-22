@@ -316,16 +316,16 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>182</x>
-      <y>266</y>
+      <x>378</x>
+      <y>371</y>
       <w>238</w>
       <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 SanchezBulletin
 --
-+ moment: Date (Temporal(TIMESTAMP), Past)
-+ Author: String (NotBlank)
++ date: Date (Temporal(TIMESTAMP), Past)
++ author: String (NotBlank)
 + city: String (NotBlank)
 + country: String (NotBlank)</panel_attributes>
     <additional_attributes/>

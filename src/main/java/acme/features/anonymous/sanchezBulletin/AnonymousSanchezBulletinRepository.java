@@ -23,7 +23,7 @@ import acme.framework.repositories.AbstractRepository;
 @Repository
 public interface AnonymousSanchezBulletinRepository extends AbstractRepository {
 
-	@Query("select s from SanchezBulletin s")
+	@Query("select b from SanchezBulletin b")
 	Collection<SanchezBulletin> findMany();
 
 }
