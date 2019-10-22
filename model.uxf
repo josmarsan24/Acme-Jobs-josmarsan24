@@ -313,4 +313,22 @@ Shout
 </panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>483</x>
+      <y>371</y>
+      <w>217</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+NavarroBulletin
+--
++ name: String (NotBlank)
++ age: Integer (NotNull, Positive, Max())
++ height: Double (NotNull, Positive, Max())
++ weight: Double (NotNull, Positive, Max())
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

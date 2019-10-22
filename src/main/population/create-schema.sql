@@ -29,6 +29,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `navarro_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `age` integer,
+        `height` double precision,
+        `name` varchar(255),
+        `weight` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
