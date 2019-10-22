@@ -60,6 +60,27 @@
         <property name="date" value= "2019/09/07 00:30"/>
     </bean>
 
-	
+	<!-- Shouts -->
+
+    <bean id = "nBulletin01" class = "acme.entities.navarroBulletin.NavarroBulletin">
+        <property name="name" value= "Juan Martin"/>
+        <property name="age" value= "15" />
+        <property name="height" value= "1.68"/>
+        <property name="weight" value= '55.1'/>
+    </bean>
+    
+    <bean id = "nBulletin02" class = "acme.entities.navarroBulletin.NavarroBulletin">
+        <property name="name" value= "Pedro Gomez"/>
+        <property name="age" value= "21"/>
+        <property name="height" value= "1.9"/>
+        <property name="weight" value= "80.4"/>
+    </bean>
+    
+    <bean id = "nBulletin03" class = "acme.entities.navarroBulletin.NavarroBulletin">
+        <property name="name" value= "Maria Santos"/>
+        <property name="age" value= "18"/>
+        <property name="height" value= "1.7"/>
+        <property name="weight" value= "56.8"/>
+    </bean>
 
 </beans>
