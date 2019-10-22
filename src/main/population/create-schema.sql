@@ -38,6 +38,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `sanchez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `city` varchar(255),
+        `country` varchar(255),
+        `date` datetime(6),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `shout` (
        `id` integer not null,
         `version` integer not null,
