@@ -29,7 +29,7 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.listJesus = Jesús' link
+master.menu.anonymous.listJesus = Jesús' Bulletin
 master.menu.anonymous.listJoseManuel = José Manuel's link
 master.menu.anonymous.listJose = Jose's link
 master.menu.anonymous.listJavier = Javier's link

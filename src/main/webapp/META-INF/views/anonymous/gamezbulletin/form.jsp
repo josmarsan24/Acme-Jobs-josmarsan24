@@ -16,8 +16,11 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-    <acme:form-textbox code="anonymous.shout.form.label.author" path="author"/>
-    <acme:form-textareas code="anonymous.shout.form.label.text" path="text"/>
-    <acme:form-submit code="anonymous.shout.form.button.create" path="anonymous/shout/create"/>
-    <acme:form-return code="anonymous.shout.form.button.return"/>
+    <acme:form-textbox code="anonymous.gamezbulletin.form.label.food" path="food"/>
+    <acme:form-textbox code="anonymous.gamezbulletin.form.label.kcalories" path="kcalories"/>
+    <acme:form-textarea code="anonymous.gamezbulletin.form.label.directions" path="directions"/>
+    
+    
+    <acme:form-submit code="anonymous.gamezbulletin.form.button.create" action="/anonymous/gamezbulletin/create"/>
+    <acme:form-return code="anonymous.gamezbulletin.form.button.return"/>
 </acme:form>
