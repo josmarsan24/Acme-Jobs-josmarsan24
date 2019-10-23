@@ -36,9 +36,13 @@
         <property name="text" value= "Jus turning 20!"/>
         <property name="moment" value= "2019/09/07 00:00"/>
     </bean>
+   
     
-
-    <bean id = "food01" class = "acme.entities.bulletins.GamezBulletin">
+    
+    
+    <!-- Bulletins -->
+    
+     <bean id = "food01" class = "acme.entities.bulletins.GamezBulletin">
         <property name="food" value= "macarrones"/>
         <property name="directions" value= "Cocer en agua 5 min"/>
         <property name="moment" value= "2019/09/09 10:00"/>
@@ -59,9 +63,6 @@
         <property name="kcalories" value= "2297.34"/>
 	</bean>
     
-    
-    
-    <!-- Bulletins -->
     
     <bean id = "sanchez-bulletin01" class = "acme.entities.bulletins.SanchezBulletin">
         <property name="author" value= "Amando Ruiz"/>
