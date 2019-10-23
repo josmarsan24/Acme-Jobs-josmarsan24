@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.navarroBulletin;
+package acme.features.anonymous.munizBulletin;
 
 import javax.annotation.PostConstruct;
 
@@ -18,22 +18,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletins.NavarroBulletin;
+import acme.entities.bulletins.MunizBulletin;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/navarro-bulletin/")
-public class AnonymousNavarroBulletinController extends AbstractController<Anonymous, NavarroBulletin> {
+@RequestMapping("/anonymous/muniz-bulletin/")
+public class MunizBulletinController extends AbstractController<Anonymous, MunizBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private AnonymousNavarroBulletinListService		listService;
+	private MunizBulletinListService	listService;
 
 	@Autowired
-	private AnonymousNavarroBulletinCreateService	createService;
+	private MunizBulletinCreateService	createService;
 
 
 	// Constructors -----------------------------------------------------------

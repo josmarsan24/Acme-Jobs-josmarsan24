@@ -83,7 +83,9 @@ master.company.text = \
 	Acme-Jobs S.A. es una compañía fictícia que proporciona un proyecto \
 	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
 	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Acme Jobs, Inc.
+
+master.company.name = Acme-Jobs S.A.
+
 master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com

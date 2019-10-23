@@ -1,4 +1,3 @@
-
 /*
  * AnonymousUserAccountCreateService.java
  *
@@ -11,41 +10,40 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.navarroBulletin;
+package acme.features.anonymous.munizBulletin;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.NavarroBulletin;
+import acme.entities.bulletins.MunizBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-
-public class AnonymousNavarroBulletinListService implements AbstractListService<Anonymous, NavarroBulletin> {
+public class MunizBulletinListService implements AbstractListService<Anonymous, MunizBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AnonymousNavarroBulletinRepository repository;
+	MunizBulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<NavarroBulletin> request) {
+	public boolean authorise(final Request<MunizBulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Collection<NavarroBulletin> findMany(final Request<NavarroBulletin> request) {
+	public Collection<MunizBulletin> findMany(final Request<MunizBulletin> request) {
 		assert request != null;
 
-		Collection<NavarroBulletin> result;
+		Collection<MunizBulletin> result;
 
 		result = this.repository.findMany();
 
@@ -53,12 +51,12 @@ public class AnonymousNavarroBulletinListService implements AbstractListService<
 	}
 
 	@Override
-	public void unbind(final Request<NavarroBulletin> request, final NavarroBulletin entity, final Model model) {
+	public void unbind(final Request<MunizBulletin> request, final MunizBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "age", "height", "weight");
+		request.unbind(entity, model, "name", "surname", "idCode");
 
 	}
 

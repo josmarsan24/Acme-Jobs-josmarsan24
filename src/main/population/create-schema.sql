@@ -30,6 +30,27 @@
     ) engine=InnoDB;
 
 
+    create table `martin_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `age` integer,
+        `date` datetime(6),
+        `name` varchar(255),
+        `surname` varchar(255),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `muniz_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `id_code` varchar(255),
+        `name` varchar(255),
+        `surname` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+
     create table `gamezbulletin` (
        `id` integer not null,
         `version` integer not null,

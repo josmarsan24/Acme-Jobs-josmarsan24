@@ -4,7 +4,7 @@ package acme.features.anonymous.navarroBulletin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.navarroBulletin.NavarroBulletin;
+import acme.entities.bulletins.NavarroBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;

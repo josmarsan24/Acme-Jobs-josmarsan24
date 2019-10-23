@@ -12,11 +12,11 @@ anonymous.navarro-bulletin.list.label.name = Nombre
 anonymous.navarro-bulletin.list.label.age = Edad
 anonymous.navarro-bulletin.list.label.height = Altura (m)
 anonymous.navarro-bulletin.list.label.weight = Peso (kg)
-anonymous.navarro-bulletin.list.button.advance = Crear un boletin
+anonymous.navarro-bulletin.list.button.advance = Crear
 
 anonymous.navarro-bulletin.form.label.name = Nombre
 anonymous.navarro-bulletin.form.label.age = Edad
 anonymous.navarro-bulletin.form.label.height = Altura
 anonymous.navarro-bulletin.form.label.weight = Peso
-anonymous.navarro-bulletin.form.button.create = Gritar
+anonymous.navarro-bulletin.form.button.create = Crear
 anonymous.navarro-bulletin.form.button.return = Volver
