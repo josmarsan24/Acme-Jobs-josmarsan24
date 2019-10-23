@@ -27,17 +27,13 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `gamez_bulletin`;
 
     drop table if exists `martin_bulletin`;
 
     drop table if exists `muniz_bulletin`;
 
-
-    drop table if exists `gamezbulletin`;
-
-
     drop table if exists `navarro_bulletin`;
-
 
     drop table if exists `provider`;
 
