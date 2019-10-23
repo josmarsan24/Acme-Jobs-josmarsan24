@@ -37,6 +37,27 @@
         <property name="moment" value= "2019/09/07 00:00"/>
     </bean>
     
+
+    <bean id = "food01" class = "acme.entities.gamezbulletin.Gamezbulletin">
+        <property name="food" value= "macarrones"/>
+        <property name="directions" value= "Cocer en agua 5 min"/>
+        <property name="moment" value= "2019/09/09 10:00"/>
+        <property name="kcalories" value= "1589.23"/>
+    </bean>
+
+    <bean id = "food02" class = "acme.entities.gamezbulletin.Gamezbulletin">        
+     	<property name="food" value= "manzana"/>
+        <property name="directions" value= "Ve al supermercado"/>
+        <property name="moment" value= "2019/08/20 10:00"/>
+        <property name="kcalories" value= "485.84"/>
+    </bean>
+
+    <bean id = "food03" class = "acme.entities.gamezbulletin.Gamezbulletin">
+        <property name="food" value= "filete de ternera"/>
+        <property name="directions" value= "Hacerlo a la plancha 15 min"/>
+        <property name="moment" value= "2019/09/02 10:00"/>
+        <property name="kcalories" value= "2297.34"/>
+
     
     
     <bean id = "sanchez-bulletin01" class = "acme.entities.bulletins.SanchezBulletin">
@@ -58,6 +79,7 @@
         <property name="city" value= "New York"/>
         <property name="country" value= "USA"/>
         <property name="date" value= "2019/09/07 00:30"/>
+
     </bean>
 
 	<!-- Shouts -->

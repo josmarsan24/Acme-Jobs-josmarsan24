@@ -317,16 +317,26 @@ Shout
     <id>UMLClass</id>
     <coordinates>
 
-      <x>378</x>
-      <y>371</y>
+      <x>14</x>
 
+
+     
 
       <x>483</x>
+
       <y>371</y>
       <w>217</w>
       <h>105</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
+
+GamezBulletin
+--
++ food: String (NotBlank)
++ kcalories: double(Digits(10,2))
++ moment: Date (Temporal(TIMESTAMP), Past)
++ directions: String (NotBlank)</panel_attributes>
+=
 NavarroBulletin
 --
 + name: String (NotBlank)
@@ -348,6 +358,7 @@ SanchezBulletin
 + author: String (NotBlank)
 + city: String (NotBlank)
 + country: String (NotBlank)</panel_attributes>
+
 
     <additional_attributes/>
   </element>
