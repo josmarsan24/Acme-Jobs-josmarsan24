@@ -29,6 +29,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.listJose" action="/anonymous/martin-bulletin/list"/>
 			
 			<acme:menu-suboption code="master.menu.anonymous.listIsaac" action="/anonymous/muniz-bulletin/list"/>
+			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
