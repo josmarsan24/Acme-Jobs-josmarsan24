@@ -6,6 +6,7 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Past;
 
@@ -34,7 +35,7 @@ public class Gamezbulletin extends DomainEntity {
 	@Past
 	private Date				moment;
 
-	@NotBlank
-	private String				kcalories;
+	@Digits(integer = 10, fraction = 2)
+	private double				kcalories;
 
 }

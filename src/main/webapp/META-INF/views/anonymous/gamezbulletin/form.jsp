@@ -17,7 +17,7 @@
 
 <acme:form>
     <acme:form-textbox code="anonymous.gamezbulletin.form.label.food" path="food"/>
-    <acme:form-textbox code="anonymous.gamezbulletin.form.label.kcalories" path="kcalories"/>
+    <acme:form-double code="anonymous.gamezbulletin.form.label.kcalories" path="kcalories"/>
     <acme:form-textarea code="anonymous.gamezbulletin.form.label.directions" path="directions"/>
     
     

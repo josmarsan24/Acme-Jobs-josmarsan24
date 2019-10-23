@@ -40,7 +40,7 @@ public class AnonymousGamezBulletinCreateService implements AbstractCreateServic
 
 		result = new Gamezbulletin();
 		result.setFood("Tu comida");
-		result.setKcalories("1000.01");
+		result.setKcalories(1000.01);
 		result.setDirections("Preparacion de tu comida");
 		result.setMoment(moment);
 

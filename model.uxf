@@ -325,7 +325,7 @@ Shout
 GamezBulletin
 --
 + food: String (NotBlank)
-+ kcalories: String (NotBlank)
++ kcalories: double(Digits(10,2))
 + moment: Date (Temporal(TIMESTAMP), Past)
 + directions: String (NotBlank)</panel_attributes>
     <additional_attributes/>

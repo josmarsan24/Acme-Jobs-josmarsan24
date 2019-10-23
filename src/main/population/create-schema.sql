@@ -34,7 +34,7 @@
         `version` integer not null,
         `directions` varchar(255),
         `food` varchar(255),
-        `kcalories` varchar(255),
+        `kcalories` double precision not null,
         `moment` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
