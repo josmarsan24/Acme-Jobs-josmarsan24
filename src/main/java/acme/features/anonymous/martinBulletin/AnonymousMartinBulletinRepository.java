@@ -10,20 +10,20 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.navarroBulletin;
+package acme.features.anonymous.martinBulletin;
 
 import java.util.Collection;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.bulletins.NavarroBulletin;
+import acme.entities.bulletins.MartinBulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousNavarroBulletinRepository extends AbstractRepository {
+public interface AnonymousMartinBulletinRepository extends AbstractRepository {
 
-	@Query("select s from NavarroBulletin s")
-	Collection<NavarroBulletin> findMany();
+	@Query("select b from MartinBulletin b")
+	Collection<MartinBulletin> findMany();
 
 }

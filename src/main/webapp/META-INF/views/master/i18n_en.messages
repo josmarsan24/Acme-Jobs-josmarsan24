@@ -16,7 +16,7 @@ master.banner.background = #FFE97F
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Starter Project! Never before you have seen a project \
+	Welcome to Acme-Jobs! Never before you have seen a project \
 	more beautiful and functional than this one!
 
 # master.menu #################################################################
@@ -81,7 +81,7 @@ master.company.text = \
 	Acme-Jobs S.A. is a fictitious fictitious company that provides a \
 	starter project for the students of the Design and Testing subject of the \
 	Software Engineering Curriculum of the University of Sevilla.
-master.company.name = Starter Project, Inc.
+master.company.name = Acme-Jobs S.A.
 master.company.address = Number Street, City, State, Country
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
