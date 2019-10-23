@@ -19,9 +19,13 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+
 			<acme:menu-suboption code="master.menu.anonymous.listJesus" action="http://localhost:8080/acme-jobs/anonymous/gamezbulletin/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.listJoseManuel" action="http://localhost:8080/acme-jobs/anonymous/shout/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.listJavier" action="http://localhost:8080/acme-jobs/anonymous/shout/list"/>
+
+			<acme:menu-suboption code="master.menu.anonymous.listJoseManuel" action="http://localhost:8080/acme-jobs/anonymous/sanchez-bulletin/list"/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.listJavier" action="http://localhost:8080/acme-jobs/anonymous/navarro-bulletin/list"/>
+
 			<acme:menu-suboption code="master.menu.anonymous.listJose" action="http://localhost:8080/acme-jobs/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.listIsaac" action="http://localhost:8080/acme-jobs/anonymous/shout/list"/>
 		</acme:menu-option>

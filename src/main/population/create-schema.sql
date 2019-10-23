@@ -29,6 +29,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+
     create table `gamezbulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -36,6 +37,15 @@
         `food` varchar(255),
         `kcalories` double precision not null,
         `moment` datetime(6),
+
+    create table `navarro_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `age` integer,
+        `height` double precision,
+        `name` varchar(255),
+        `weight` double precision,
+
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -45,6 +55,16 @@
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `sanchez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `city` varchar(255),
+        `country` varchar(255),
+        `date` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 

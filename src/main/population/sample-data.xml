@@ -37,6 +37,7 @@
         <property name="moment" value= "2019/09/07 00:00"/>
     </bean>
     
+
     <bean id = "food01" class = "acme.entities.gamezbulletin.Gamezbulletin">
         <property name="food" value= "macarrones"/>
         <property name="directions" value= "Cocer en agua 5 min"/>
@@ -56,8 +57,52 @@
         <property name="directions" value= "Hacerlo a la plancha 15 min"/>
         <property name="moment" value= "2019/09/02 10:00"/>
         <property name="kcalories" value= "2297.34"/>
+
+    
+    
+    <bean id = "sanchez-bulletin01" class = "acme.entities.bulletins.SanchezBulletin">
+        <property name="author" value= "Amando Ruiz"/>
+        <property name="city" value= "Sevilla"/>
+        <property name="country" value= "Spain"/>
+        <property name="date" value= "2019/09/09 10:00"/>
     </bean>
 
-	
+    <bean id = "sanchez-bulletin02" class = "acme.entities.bulletins.SanchezBulletin">
+        <property name="author" value= "Jane Doe"/>
+        <property name="city" value= "London"/>
+        <property name="country" value= "United Kingdom"/>
+        <property name="date" value= "2019/09/08 12:30"/>
+    </bean>
+
+    <bean id = "sanchez-bulletin03" class = "acme.entities.bulletins.SanchezBulletin">
+        <property name="author" value= "Luisa Cabello"/>
+        <property name="city" value= "New York"/>
+        <property name="country" value= "USA"/>
+        <property name="date" value= "2019/09/07 00:30"/>
+
+    </bean>
+
+	<!-- Shouts -->
+
+    <bean id = "nBulletin01" class = "acme.entities.navarroBulletin.NavarroBulletin">
+        <property name="name" value= "Juan Martin"/>
+        <property name="age" value= "15" />
+        <property name="height" value= "1.68"/>
+        <property name="weight" value= '55.1'/>
+    </bean>
+    
+    <bean id = "nBulletin02" class = "acme.entities.navarroBulletin.NavarroBulletin">
+        <property name="name" value= "Pedro Gomez"/>
+        <property name="age" value= "21"/>
+        <property name="height" value= "1.9"/>
+        <property name="weight" value= "80.4"/>
+    </bean>
+    
+    <bean id = "nBulletin03" class = "acme.entities.navarroBulletin.NavarroBulletin">
+        <property name="name" value= "Maria Santos"/>
+        <property name="age" value= "18"/>
+        <property name="height" value= "1.7"/>
+        <property name="weight" value= "56.8"/>
+    </bean>
 
 </beans>
