@@ -8,9 +8,7 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-This is the Starter-Project project, which is intended to be a core learning asset for the students
-who have enroled the Design and Testing subject of the Software Engineering curriculum of the 
-University of Sevilla.  This project provides a template our students can use to get their projects 
-up and running very quickly.
-A Design and Testing project made by students of the Software Engineering grade of the 
-University of Sevilla.
+This is a project for the subject of Design and Testing of the University of Sevilla. This project has been developed by
+Jesús Gámez, José Martín, Isaac Muñiz, Javier Navarro and José Manuel Sánchez. It consists of a web where
+a user is able to create different bulletins and list them. The project is in development at the moment
+and this version has been made for the first deliverable of the subject.

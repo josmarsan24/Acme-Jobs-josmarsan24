@@ -18,12 +18,12 @@
 
 <tiles-definitions>
 
-    <definition name="anonymous/gamezbulletin/form" extends="master">
-        <put-attribute name="body" type="template" value="../anonymous/gamezbulletin/form.jsp" />
+    <definition name="anonymous/gamez-bulletin/form" extends="master">
+        <put-attribute name="body" type="template" value="../anonymous/gamez-bulletin/form.jsp" />
     </definition>
 
-    <definition name="anonymous/gamezbulletin/list" extends="master">
-        <put-attribute name="body" type="template" value="../anonymous/gamezbulletin/list.jsp" />
+    <definition name="anonymous/gamez-bulletin/list" extends="master">
+        <put-attribute name="body" type="template" value="../anonymous/gamez-bulletin/list.jsp" />
     </definition>
 
 </tiles-definitions>

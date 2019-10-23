@@ -1,5 +1,5 @@
 
-package acme.entities.gamezbulletin;
+package acme.entities.bulletins;
 
 import java.util.Date;
 
@@ -17,7 +17,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Gamezbulletin extends DomainEntity {
+public class GamezBulletin extends DomainEntity {
 
 	//Serialisation identifier---------------------------------
 
@@ -25,17 +25,17 @@ public class Gamezbulletin extends DomainEntity {
 
 	//Atributes------------------------------------------------
 
-	@NotBlank
-	private String				food;
-
-	@NotBlank
-	private String				directions;
-
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	private Date				moment;
 
 	@Digits(integer = 10, fraction = 2)
 	private double				kcalories;
+
+	@NotBlank
+	private String				directions;
+
+	@NotBlank
+	private String				food;
 
 }

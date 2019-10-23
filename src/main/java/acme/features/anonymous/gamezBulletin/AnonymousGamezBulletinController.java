@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.gamezbulletin;
+package acme.features.anonymous.gamezBulletin;
 
 import javax.annotation.PostConstruct;
 
@@ -18,14 +18,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.gamezbulletin.Gamezbulletin;
+import acme.entities.bulletins.GamezBulletin;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/gamezbulletin/")
-public class AnonymousGamezBulletinController extends AbstractController<Anonymous, Gamezbulletin> {
+@RequestMapping("/anonymous/gamez-bulletin/")
+public class AnonymousGamezBulletinController extends AbstractController<Anonymous, GamezBulletin> {
 
 	// Internal state ---------------------------------------------------------
 

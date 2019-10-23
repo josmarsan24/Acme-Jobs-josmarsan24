@@ -1,12 +1,12 @@
 
-package acme.features.anonymous.gamezbulletin;
+package acme.features.anonymous.gamezBulletin;
 
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.gamezbulletin.Gamezbulletin;
+import acme.entities.bulletins.GamezBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -14,7 +14,7 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousGamezBulletinCreateService implements AbstractCreateService<Anonymous, Gamezbulletin> {
+public class AnonymousGamezBulletinCreateService implements AbstractCreateService<Anonymous, GamezBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -23,22 +23,22 @@ public class AnonymousGamezBulletinCreateService implements AbstractCreateServic
 
 
 	@Override
-	public boolean authorise(final Request<Gamezbulletin> request) {
+	public boolean authorise(final Request<GamezBulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Gamezbulletin instantiate(final Request<Gamezbulletin> request) {
+	public GamezBulletin instantiate(final Request<GamezBulletin> request) {
 		assert request != null;
 
-		Gamezbulletin result;
+		GamezBulletin result;
 		Date moment;
 
 		moment = new Date(System.currentTimeMillis() - 1);
 
-		result = new Gamezbulletin();
+		result = new GamezBulletin();
 		result.setFood("Tu comida");
 		result.setKcalories(1000.01);
 		result.setDirections("Preparacion de tu comida");
@@ -48,16 +48,16 @@ public class AnonymousGamezBulletinCreateService implements AbstractCreateServic
 	}
 
 	@Override
-	public void unbind(final Request<Gamezbulletin> request, final Gamezbulletin entity, final Model model) {
+	public void unbind(final Request<GamezBulletin> request, final GamezBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "food", "kcalories", "directions");
+		request.unbind(entity, model, "kcalories", "directions", "food");
 	}
 
 	@Override
-	public void bind(final Request<Gamezbulletin> request, final Gamezbulletin entity, final Errors errors) {
+	public void bind(final Request<GamezBulletin> request, final GamezBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -66,14 +66,14 @@ public class AnonymousGamezBulletinCreateService implements AbstractCreateServic
 	}
 
 	@Override
-	public void validate(final Request<Gamezbulletin> request, final Gamezbulletin entity, final Errors errors) {
+	public void validate(final Request<GamezBulletin> request, final GamezBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 	}
 
 	@Override
-	public void create(final Request<Gamezbulletin> request, final Gamezbulletin entity) {
+	public void create(final Request<GamezBulletin> request, final GamezBulletin entity) {
 		assert request != null;
 		assert entity != null;
 

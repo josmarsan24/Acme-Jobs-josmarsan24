@@ -11,14 +11,14 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.gamezbulletin;
+package acme.features.anonymous.gamezBulletin;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.gamezbulletin.Gamezbulletin;
+import acme.entities.bulletins.GamezBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
@@ -26,7 +26,7 @@ import acme.framework.services.AbstractListService;
 
 @Service
 
-public class AnonymousGamezBulletinListService implements AbstractListService<Anonymous, Gamezbulletin> {
+public class AnonymousGamezBulletinListService implements AbstractListService<Anonymous, GamezBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -35,17 +35,17 @@ public class AnonymousGamezBulletinListService implements AbstractListService<An
 
 
 	@Override
-	public boolean authorise(final Request<Gamezbulletin> request) {
+	public boolean authorise(final Request<GamezBulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Collection<Gamezbulletin> findMany(final Request<Gamezbulletin> request) {
+	public Collection<GamezBulletin> findMany(final Request<GamezBulletin> request) {
 		assert request != null;
 
-		Collection<Gamezbulletin> result;
+		Collection<GamezBulletin> result;
 
 		result = this.repository.findMany();
 
@@ -53,12 +53,12 @@ public class AnonymousGamezBulletinListService implements AbstractListService<An
 	}
 
 	@Override
-	public void unbind(final Request<Gamezbulletin> request, final Gamezbulletin entity, final Model model) {
+	public void unbind(final Request<GamezBulletin> request, final GamezBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "food", "kcalories", "moment", "directions");
+		request.unbind(entity, model, "moment", "kcalories", "directions", "food");
 
 	}
 

@@ -10,20 +10,20 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.gamezbulletin;
+package acme.features.anonymous.gamezBulletin;
 
 import java.util.Collection;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.gamezbulletin.Gamezbulletin;
+import acme.entities.bulletins.GamezBulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
 public interface AnonymousGamezBulletinRepository extends AbstractRepository {
 
-	@Query("select s from Gamezbulletin s")
-	Collection<Gamezbulletin> findMany();
+	@Query("select s from GamezBulletin s")
+	Collection<GamezBulletin> findMany();
 
 }
