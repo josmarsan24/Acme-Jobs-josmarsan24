@@ -15,8 +15,12 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<acme:list reandonly="true">
-    <acme:list column code="anonymous.shout.label.moment" path="moment" width="20%"/>
-    <acme:list column code="anonymous.shout.label.author" path="author" width="20%"/>
-    <acme:list column code="anonymous.shout.label.text" path="text" width="60%"/>
-</acme:list>
+<acme:form>
+    <acme:form-textbox code="anonymous.gamezbulletin.form.label.food" path="food"/>
+    <acme:form-double code="anonymous.gamezbulletin.form.label.kcalories" path="kcalories"/>
+    <acme:form-textarea code="anonymous.gamezbulletin.form.label.directions" path="directions"/>
+    
+    
+    <acme:form-submit code="anonymous.gamezbulletin.form.button.create" action="/anonymous/gamezbulletin/create"/>
+    <acme:form-return code="anonymous.gamezbulletin.form.button.return"/>
+</acme:form>

@@ -315,6 +315,7 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
+
       <x>490</x>
       <y>364</y>
       <w>140</w>
@@ -322,6 +323,30 @@ Shout
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 MunizBulletin
+
+
+      <x>14</x>
+
+
+     
+
+      <x>483</x>
+
+      <y>371</y>
+      <w>217</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+
+GamezBulletin
+--
++ food: String (NotBlank)
++ kcalories: double(Digits(10,2))
++ moment: Date (Temporal(TIMESTAMP), Past)
++ directions: String (NotBlank)</panel_attributes>
+=
+NavarroBulletin
+
 --
 + Name: String (NotBlank)
 + Surname: String (NotBlank)
@@ -340,6 +365,7 @@ MunizBulletin
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 SanchezBulletin
 --
+
 + Author: String (NotBlank)
 + City: String (NotBlank)
 + Country: String (NotBlank)
@@ -379,6 +405,14 @@ NavarroBulletin
 + Age: Integer (Not Null, Positive, Max(130))
 + Height: Double (Not Null, Positive, Max(3))
 + Weight: Double (Not Null, Positive, Max(300))</panel_attributes>
+
++ date: Date (Temporal(TIMESTAMP), Past)
++ author: String (NotBlank)
++ city: String (NotBlank)
++ country: String (NotBlank)</panel_attributes>
+
+
+
     <additional_attributes/>
   </element>
 </diagram>

@@ -29,12 +29,14 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-<
+
+
 master.menu.anonymous.listJesus = Jesús' bulletin
 master.menu.anonymous.listJoseManuel = José Manuel's bulletin
 master.menu.anonymous.listJose = Jose's bulletin
 master.menu.anonymous.listJavier = Javier's bulletin
 master.menu.anonymous.listIsaac = Isaac's bulletin
+
 
 
 # master.menu.administrator ###################################################
@@ -81,7 +83,9 @@ master.company.text = \
 	Acme-Jobs S.A. is a fictitious fictitious company that provides a \
 	starter project for the students of the Design and Testing subject of the \
 	Software Engineering Curriculum of the University of Sevilla.
+
 master.company.name = Acme-Jobs S.A.
+
 master.company.address = Number Street, City, State, Country
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
